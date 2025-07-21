@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Storm Chasers Live",
+    "slug": "storm-chasers-live",
+    "scheme": "storm-chasers",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "static",
+      "name": "Storm Chasers Live",
+      "shortName": "StormChasers",
+      "description": "Real-time storm tracking and weather alerts for storm chasers",
+      "backgroundColor": "#0f172a",
+      "themeColor": "#0ea5e9",
+      "display": "standalone",
+      "orientation": "any",
+      "startUrl": "/",
+      "router": {
+        "mode": "static"
+      }
+    },
+    "plugins": [
+      "expo-build-properties",
+      "expo-font",
+      "expo-mail-composer",
+      "expo-sqlite",
+      "expo-video",
+      "expo-web-browser"
+    ]
+  }
+}
